@@ -1,0 +1,30 @@
+/* path to images start with '../images/' */
+body {
+  color: #f00;
+  background: url("../images/mock-img.jpg") no-repeat center;
+  background-color: #008000;
+}
+@media all and (max-width: 840px) {
+  body {
+    color: #000;
+  }
+}
+body h1 {
+  background-color: #ff0;
+}
+@media all and (max-width: 840px) {
+  body h1 {
+    color: #00f;
+    background-color: #008000;
+  }
+}
+.click {
+  color: #00f;
+}
+.click {
+  color: #fff;
+  display: flex;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

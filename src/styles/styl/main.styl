@@ -1,0 +1,28 @@
+/* path to images start with '../images/' */
+@import "blocks/_smart-grid.styl";
+
+
+body {
+  color: red;
+  background url('../images/mock-img.jpg') no-repeat center
+  background-color: green
+  @media all and (max-width: 840px){
+    color: #000;
+  }
+  h1 {
+    background-color: yellow;
+    @media all and (max-width: 840px){
+      color: blue;
+      background-color: green;
+
+    }
+  }
+}
+
+.click {
+  color blue
+}
+.click
+  color white
+  display: flex
+  font-size: 20px
